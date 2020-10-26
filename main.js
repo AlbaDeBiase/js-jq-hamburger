@@ -4,5 +4,11 @@
 
 // al click sull'icona hamburger viene visualizzato il Menu
 $(".fa-bars").click(function() {
-$(".header-right ul li").show();
+$(".hamburger-menu").show();
 });
+
+// al click sull'icona X il menu mobile scompare
+
+$(".fa-times").click(function(){
+$(".hamburger-menu").hide();
+})
