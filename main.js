@@ -2,6 +2,7 @@
 // e al click sull'icona "X" il menu mobile deve scomparire.
 // In altre parole, dovere scrivere solo il codice js necessario a far funzionare l'hamburger menu.
 
-al click sull'icona hamburger viene visualizzato il Menu
-$(".fa-bars").click();
+// al click sull'icona hamburger viene visualizzato il Menu
+$(".fa-bars").click(function() {
 $(".header-right ul li").show();
+});
